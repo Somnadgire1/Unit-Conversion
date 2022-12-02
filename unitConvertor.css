@@ -1,1 +1,62 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background: url("https://th.bing.com/th/id/R.a489d302445b94bf97ca44201ff02ad0?rik=0TbCbxOtwDViVA&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2014%2f04%2fdesigner-wallpaper-20.jpg&ehk=fXwyeZ9%2bo9tvyFu4u3AYrKKxDXCjEdTf6vJGPdrQTC4%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin: 40px;
+    color: yellow;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    margin: 15px auto 0 auto;
+    width: 50%;
+    text-align: center;
+    background-color: violet;
+    border-radius: 10px;
+    padding: 20px;
+}
+.newCon{
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    margin: 15px auto 0 auto;
+    width: 60%;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+}
+.newCon1{
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+    margin: 15px auto 0 auto;
+    width: 70%;
+    text-align: center;
+    background-color: rgb(0, 255, 106);
+    border-radius: 10px;
+    padding: 20px;
+}
+.input-div{
+  display: inline-block; 
+}
+.input{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+}
